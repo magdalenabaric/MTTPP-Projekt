@@ -1,4 +1,5 @@
-# MTTPP-Projekt
+# MTTPP-Projekt 
+## Magdalena Barić
 
 Projekt je izrađen korištenjem programskog jezika Java unutar IntelliJ IDEA programa. Testiran je pristup te neke funkcionalnosti stranice Parfemi Milano.
 Izvedeno je 8 testnih slučajeva, a svaki od njih izveden je duplo(korištenjem cross browser testiranja), na Google Chromu korištenjem chrome drivera te na Microsoft Edge-u korištenjem msedge drivera. 
