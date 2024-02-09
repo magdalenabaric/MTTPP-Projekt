@@ -24,14 +24,14 @@ public class TestClass3 {
         driver.manage().window().maximize();
         Thread.sleep(5000);
         WebElement searchTextBox = driver.findElement(By.name("q"));
-        searchTextBox.sendKeys("profumi milano HR");
+        searchTextBox.sendKeys("parfemi milano");
         searchTextBox.submit();
         Thread.sleep(5000);
         WebElement testLink =
-                driver.findElement(By.xpath("//*[@id=\"rso\"]/div[1]/div/div/div[2]/div/span/em")
+                driver.findElement(By.xpath("//*[@id=\"rso\"]/div[1]/div/div/div/div/div/div/div/div[1]/div/span/a/div/div/span")
                 );
 
-        Assert.assertEquals(testLink.getText(), "Profumi Milano HR");
+        Assert.assertEquals(testLink.getText(), "Parfemi Milano");
         System.out.print(testLink.getText());
     }
     @AfterMethod
